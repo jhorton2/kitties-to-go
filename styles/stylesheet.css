@@ -111,8 +111,8 @@ footer {
   background: #ebebebff;
   font-family: sans-serif;
   padding-left: 150px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
 }
 .top-nav-links {
   display: inline-flex;
@@ -120,9 +120,10 @@ footer {
   text-decoration-line: none;
   color: black;
   font-weight: bolder;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #3a3a3aff
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  color: #3a3a3aff;
+  margin: 2rem;
   /* word-spacing: 1rem; */
 }
 /* .container {
@@ -144,4 +145,25 @@ blockquote {
 }
 .blue-text {
   color: #2c9ab7ff
+}
+a:hover {
+  color: red;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+.hidden {
+  position: relative;
+  left:100000px;
+  top: auto;
+}
+.hidden:focus {
+  left:0px;
+}
+.sr-only {
+  position: absolute;
+  left: -100000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

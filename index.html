@@ -6,17 +6,19 @@
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
   <body id="page-container">
+    <a href="#main-content" class="hidden">Skip to main content</a>
     <header id="header">
       <h1>KITTIES TO GO!</h1>
       <p id="italic">Seattle's premiere drive-thru <br> cat rentals</p>
     </header>
     <nav class="top-nav">
-      <a class="top-nav-links" href="/cat-page.html">About</a> /
-      <a class="top-nav-links" href="/rates/">Rates</a> /
-      <a class="top-nav-links" href="/liability-release/">Liability Release</a> /
-      <a class="top-nav-links" href="/kitty-profiles/">Kitty Profiles</a> /
-      <a class="top-nav-links" href="/book-a-cat/">Book a Cat</a>
+      <a class="top-nav-links" href="/cat-page.html" target="_blank">About</a> /
+      <a class="top-nav-links" href="/rates/" target="_blank">Rates</a> /
+      <a class="top-nav-links" href="/liability-release/" target="_blank">Liability Release</a> /
+      <a class="top-nav-links" href="/kitty-profiles/" target="_blank">Kitty Profiles</a> /
+      <a class="top-nav-links" href="/book-a-cat/" target="_blank">Book a Cat</a>
     </nav>
+    <div id="main-content">
     <main id="master-main">
         <section>
           <h2 class="color-header">Cat ipsum dolor sit amet, find something else more interesting, so
@@ -41,9 +43,9 @@ vacuum cleaner and always hungry for lie on your belly and purr when you are asl
         <section>
           <h3>CATS IN THE NEWS</h3>
             <p>Lorem ipsum dolor sit amet, per ne prompta expetendis, at cum ignota albucius menandri, an vocent offendit pro. Vel ad illud maiorum, has salutandi similique ad, habeo invenire principes eu quo. Munere meliore signiferumque qui ad, idque viris eum te, has prompta graecis ad. Quis noster ex eum, blandit efficiantur in est.</p>
-            <a href="cats-page.html"> Find out more </a>
+            <span class="sr-only">this link opens in a new tab</span><a href="cats-page.html" target="_blank">Find out more </a>
             <p>Lorem ipsum dolor sit amet, per ne prompta expetendis, at cum ignota albucius menandri, an vocent offendit pro. Vel ad illud maiorum, has salutandi similique ad, habeo invenire principes eu quo. Munere meliore signiferumque qui ad, idque viris eum te, has prompta graecis ad. Quis noster ex eum, blandit efficiantur in est.</p>
-            <a href="cats-page.html"> Find out more </a>
+            <span class="sr-only">this link opens in a new tab</span><a href="cats-page.html" target="_blank"> Find out more </a>
         </section>
         <section class="float-left">
           <h3>CAT OF THE WEEK</h3>
@@ -54,6 +56,7 @@ vacuum cleaner and always hungry for lie on your belly and purr when you are asl
             <a class="float-left" href="cat-of-the-week"> Book Now </a>
           </section>
       </aside>
+    </div>
     <footer>
       <figure>
         <img src="images/lesson04-mock5-cat-logo.png" alt="Kitties to go logo">
